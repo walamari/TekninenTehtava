@@ -9,5 +9,6 @@ jotka ovat (0,0), (100, 100), (15,10) ja (18, 18).
 
 Ohjelman ajaminen komentoriviltä:
 Lataa node.js:n 
-Ohjelman kääntyy komennolla: node nordcloud_TekninenTehtava [haluamasi koordinaatti] [haluamasi koordinaatti]
+Ohjelman kääntyy komennolla: node nordcloud_TekninenTehtava [haluamasi x koordinaatti] [haluamasi y koordinaatti]
+Käännettäessä ohjelmalle pitää antaa laitteen koordinaatit parametreiksi. 
 esim. node nordcloud_TekninenTehtava 5 6
