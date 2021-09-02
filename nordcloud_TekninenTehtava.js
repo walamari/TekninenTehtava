@@ -70,9 +70,8 @@ function etaisyysLaskuri (AsemanPisteet, pisteet){
 // etäisyys on etäisyyslaskurilla saatu laitteen ja linkkiaseman etäisys
 function voimaLaskuri(kantama, etaisyys ){
     let power = 0;
-    if (etaisyys > kantama){
-        return power
+    if (etaisyys <= kantama){
+        power = Math.pow(kantama - etaisyys, 2);
     }
-    power = (kantama - etaisyys)^2;
     return power;
 }
